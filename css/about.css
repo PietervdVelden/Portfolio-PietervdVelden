@@ -1,0 +1,7 @@
+.about { display: flex; flex-direction: column; gap: 2rem; max-width: 800px; margin: 0 auto; padding: 4rem 2rem; }
+.carousel { position: relative; width: 200px; margin: 0 auto; }
+.carousel img { width: 100%; border-radius: 2rem; display: none; }
+.carousel img.active { display: block; }
+.dots { display: flex; justify-content: center; gap: 0.5rem; margin-top: 0.5rem; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--light); cursor: pointer; }
+.dot.active { background: var(--gold); }

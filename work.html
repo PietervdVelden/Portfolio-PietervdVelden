@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pieter vd Velden | My Work</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/work.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="index.html">Pieter vd Velden</a></div>
+    <nav>
+      <ul>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="work.html" class="active">My work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="work-grid">
+    <div class="card" data-title="Coca-Cola rebranding" data-text="Beschrijving…">
+      <img src="images/project1.jpg" alt="Coca-Cola">
+      <div class="title">Coca-Cola rebranding</div>
+    </div>
+    <div class="card" data-title="Dyscalculia game" data-text="Beschrijving…">
+      <img src="images/project2.jpg" alt="Dyscalculia game">
+      <div class="title">Dyscalculia game</div>
+    </div>
+    <div class="card" data-title="Aftermovie own Café" data-text="Beschrijving…">
+      <img src="images/project3.jpg" alt="Aftermovie café">
+      <div class="title">Aftermovie own Café</div>
+    </div>
+  </section>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span id="closeBtn">×</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+</html>

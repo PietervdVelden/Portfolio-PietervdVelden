@@ -1,0 +1,19 @@
+:root {
+  --navy: #0c1e4a;
+  --gold: #c49f38;
+  --light: #f5faff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Montserrat', sans‑serif;
+  color: var(--navy);
+  background: white;
+}
+header { display: flex; justify-content: space-between; padding: 1rem 2rem; position: sticky; top: 0; background: white; }
+nav ul {
+  list-style: none;   
+  display: flex;
+  gap: 1.5rem;
+}
+nav a { text-decoration: none; color: var(--navy); }
+nav a.active, nav a:hover { color: var(--gold); }
